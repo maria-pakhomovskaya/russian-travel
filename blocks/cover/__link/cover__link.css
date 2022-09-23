@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    position: absolute;
 }
 
 .cover__link:before {
@@ -25,8 +26,4 @@
 
 .cover__link:hover::before {
     opacity: .8;
-}
-
-.cover__link:hover {
-    opacity: 1;
 }
